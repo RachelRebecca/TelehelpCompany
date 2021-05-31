@@ -1,0 +1,42 @@
+form{
+    outline-color: ivory;
+}
+form > fieldset{
+    border-radius: 40px;
+    padding: 12px;
+    margin: 12px;
+    font-family: Baskerville, serif;
+}
+
+legend{
+    background-color: palegoldenrod;
+    font-family: Baskerville, serif;
+    font-style: italic;
+}
+
+div.survey{
+    text-align: justify-all;
+    background-color: ivory;
+    font-family: Baskerville, serif;
+}
+div.survey > select > option{
+    font-family: Baskerville, serif;
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: center;
+    width: 8em;
+}
+
+div.survey > fieldset{
+    width: 100px;
+    font-family: Baskerville, serif;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.survey > textarea{
+    width: 500px;
+    height: 150px;
+
+}
